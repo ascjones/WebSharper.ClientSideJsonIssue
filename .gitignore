@@ -1,0 +1,15 @@
+bin/
+obj/
+packages/
+*.suo
+*.tmp
+.paket/paket.exe
+build
+test
+deploy
+nuget
+.user
+*.orig
+
+Contrarius.Portfolio.sln.DotSettings.user
+Contrarius.Portfolio/Scripts/WebSharper/
