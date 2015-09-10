@@ -2,7 +2,7 @@
 open Fake
 
 Target "Build" (fun _ ->
-    MSBuildRelease "" "Rebuild" ["Application1/Application1.fsproj"] |> Log "AppBuild-Output"
+    MSBuildDebug "" "Build" ["WebSharper.Playground.sln"] |> Log "AppBuild-Output"
 )
 
 RunTargetOrDefault "Build"

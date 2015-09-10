@@ -3,11 +3,10 @@ namespace Application1
 open WebSharper
 open WebSharper.Sitelets
 
-type Article = { title: string; body: string }
-
 type EndPoints =
     | [<EndPoint "POST /article"; Json "article">]
         PostArticle of article: Article
+and Article = { title: string; body: string }
 
 module Site =
 
