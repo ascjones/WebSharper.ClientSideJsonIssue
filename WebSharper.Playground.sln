@@ -3,19 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{6A4428DC-FAD0-43E0-A8DA-D7BF3B59BE69}"
-	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
-		paket.lock = paket.lock
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A04D84B7-ECBA-4C26-9635-557B89C4017B}"
 	ProjectSection(SolutionItems) = preProject
 		build.bat = build.bat
 		build.fsx = build.fsx
 	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application1", "Application1\Application1.fsproj", "{9E2789D9-5047-473A-AF2A-D206C901AC9F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4282DE68-5567-401D-B9D6-904B51378849}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Application2", "Application2\Application2.fsproj", "{41B6C86D-E0EC-4676-841C-4AF59C9C350E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +24,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9E2789D9-5047-473A-AF2A-D206C901AC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E2789D9-5047-473A-AF2A-D206C901AC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E2789D9-5047-473A-AF2A-D206C901AC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E2789D9-5047-473A-AF2A-D206C901AC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B6C86D-E0EC-4676-841C-4AF59C9C350E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B6C86D-E0EC-4676-841C-4AF59C9C350E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B6C86D-E0EC-4676-841C-4AF59C9C350E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B6C86D-E0EC-4676-841C-4AF59C9C350E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
